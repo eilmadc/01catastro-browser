@@ -16,6 +16,7 @@ export class Tab1Page {
   //Abrir link Catastro en navegador con InAppBrowser
   //Lo abro con boton
   async openUrl() {
-    this.iab.create(`https://www1.sedecatastro.gob.es/Cartografia/mapa.aspx`, `_self`,Option);
+    this.iab.create(`https://www.youtube.com/`, `_self`,Option);
+    //https://www1.sedecatastro.gob.es/Cartografia/mapa.aspx
   }
 }
